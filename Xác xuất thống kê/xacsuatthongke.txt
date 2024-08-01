@@ -1,0 +1,81 @@
+TẬP HỢP
+
+
+Sử dụng giao ( Intersection )
+    - Sử dụng khi cần xác định các phần tử mà có mặt trong cả hai tập hợp
+
+
+Sử hợp ( Union )
+    - Khi bạn cần tập hợp bao gồm tất cả các phần tử của hai hoặc nhiều tập hợp
+
+
+Hiệu ( Difference ) A \ B 
+    - Sử dụng khi bạn cần tìm các phần từ nằm trong tập hợp thứ nhất mà không nằm trong tập hợp thứ hai
+
+
+
+Sử dụng bù ( Complement )
+    - Sử dụng khi bạn càn tìm cắc phần tử nằm trong tập hợp tổng quát nhưng không nằm trong tập hợp đã cho
+
+
+
+Công thức cộng:
+    - Được sử dụng khi bạn muốn tính tổng số phần tử trong hai hoặc nhiều tập hợp mà không có phần từ nào bị tính hai lần
+    Vd: thực hiện một công việc có k phương pháp khác nhau và không có cách thực hiện các phương pháp chung
+
+Công thức nhân:
+    - Được sử dụng khi bạn muốn tính số cách lựa chọn các phần tử từ các tập hợp hoặc tính xác suất của các sự kiện độc lập
+    Vd: thảy 2 đồng xu thì 2 đồng xu đuọc thảy lên cùng lúc và có thể xảy ra 2 mặt ngủa đồng thời
+
+
+3. GIẢI TÍCH TỔ HỢP 
+
+Chỉnh hợp lặp n chập k: 
+    - Sử dụng khi tạo ra các chuỗi sắp xếp mà có sự lặp lại các phần tử
+    - Thứ tự của các phần tử trong chuỗi là quan trọng: Các chuỗi có cùng phần tử nhưng thứ tự khác nhau được coi là khác nhau
+
+Chỉnh hợp không lặp n chập k:
+    - Là phép toán dùng để đếm số cách sắp xếp các phần tử của một tập hợp trong một chuỗi có độ dài xác định
+    - Khi cần tạo ra các chuỗi sắp xếp mà không có sự lặp lại của các phần tử
+    - Khi thứ tự của các phần tử trong chuỗi là quan trọng
+    Vd: mã số có thể tạo ra với chiều dài 3 từ tập hợp {A,B,C,D}: 24 mã
+    Công thức:
+
+
+
+( không quan tâm thứ tự thì số lượng phần tử sẽ ít hơn )
+
+Tổ hợp n chập k:
+    - Dùng để đếm số cách chọn k phần tử từ một tập hợp n phần tử mà không quan tâm đến thứ tự của các phần tử được chọn
+    - Công thức: 
+
+
+
+    Dưới đây là tất cả các cách chọn 3 học sinh từ 5 học sinh A, B, C, D, E:
+        ABC,ABD,ABE,ACD,ACE,ADE,BCD,BCE,BDE,CDE
+
+ĐẠI CƯƠNG VỀ XÁC suất
+
+Xác suất
+    Xác suất biến cố A xảy ra khi biết biến cố B đã xảy ra
+    Xác suất trời mưa khi biết hôm nay đã mưa
+
+        - Công thức cộng: sử dụng khi ta muốn tính xác suất của một hợp biến cố có điều kiện.
+        Cụ thể hơn là khi ta muốn tính xác suất của một biến cố tổng hợp A hợp B dưới điều kiện một biến cố khác C đã xảy ra.
+
+
+
+        - Công thức nhân trong xác suất có điều kiện đươc sử dụng để tính xác suất đồng thời xảy ra của hai biến cố A và B
+
+
+
+    Định lý công thức xác suất toàn phần: 
+        - Sử dụng khi không gian mẫu được phân hoạch thành các biến cố con 
+        - Khi xác suất của biến cố cần tính phụ thuộc vào một tập hợp các điều kiện hoặc kịch bản
+        - Trong các bài toán phân tích rủi ro và dự báo, nơi mà các biến cố có thể xảy ra dưới nhiều điều kiện khác nhau
+        - Công thức:
+
+
+
+
+
