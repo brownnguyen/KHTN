@@ -76,6 +76,16 @@ Xác suất
         - Công thức:
 
 
+    Định lý công thức Bayès:
+        - Sử dụng để cập nhật xác suất của một giả thiết dựa trên các bằng chứng hoặc thông tin mới. Định lý này giúp chúng ta điều chỉnh xác suất ban đầu có một biến cố dựa trên các quan sát mới
+
+    Hai biến cố độc lập: nếu sử xảy ra biến cố này không ảnh hưởng đến xác suất xảy ra của biến cố kia. Nói cách khác, biến cố A xảy ra không thay đổi khi biết rằng B đã xảy ra và ngược lại.
+
+    Lược đồ Bernoulli: là phương pháp khảo sát thực hiện phép thử tương ứng nhiều lần một cách độc lập và quan sát số lần biến cố đó xảy ra để tính được tần suất của biến cố đó.
+
+    Công thức Bernoulli thường được sử dụng để tính xác suất của một số lần thành công trong một loạt các phép thử Bernoulli độc lập
+        - Công thức
+
 
 
 
