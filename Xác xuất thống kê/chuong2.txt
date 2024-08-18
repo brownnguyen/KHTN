@@ -1,0 +1,2 @@
+    - Biến số ngẫu nhiên rời rạc
+    
