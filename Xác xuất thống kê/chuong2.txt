@@ -1,2 +1,18 @@
     - Biến số ngẫu nhiên rời rạc
     
+    - Có bảng phân phối xác suất, định nghĩa được hàm số gọi là hàm mật độ xác suất
+    - hàm phân phối
+
+
+        - Đầu tiên thành lập bảng phân phối xác suất ( cần có mô hình phân phối )
+            - Mô hình lược độ bernoulli ( phân phối nhị thức)
+            - Phân phối siêu bội: 
+            - Phân phối possion dùng để xấp xỉ phân phối nhị thức 
+        -> có được hàm mật độ xác suất
+        -> từ hàm mật đô xác suất cộng dồn lại được hàm phân phối xác suất
+
+        kỳ vọng:
+        phương sai
+        độ lệch chuân
+        
+        hiện tưởng hiếm: cỡ mẫu > 50, xác suất thành công nhỏ hơn 0.01 và n*p < 5
