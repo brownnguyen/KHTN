@@ -56,7 +56,7 @@ TCP/IP
 
 
 Hai node có cùng địa chỉ đường mạng thì thuộc cùng 1 đường mạng
-Só địa chỉ host hợp lệ trong cùng 1 đường mạng 2^m - 1 ( m là số bít trong phần HostID)
+Só địa chỉ host hợp lệ trong cùng 1 đường mạng 2^m - 2 ( m là số bít trong phần HostID)
 
 
     - Địa chỉ IP là 32 bit ( không gian địa chỉ là 2^32 )
