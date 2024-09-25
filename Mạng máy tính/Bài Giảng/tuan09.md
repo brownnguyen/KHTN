@@ -43,5 +43,5 @@ Nguyên lý pipeline:
 Nghi thức pipeline
 
 TCP: cung cấp các hàm và thủ tục cho tần application sử dụng
-    - Kiểm soát luồng
+    - Kiểm soát luồng: giúp không tràn ngập dữ liệu
     - Kiểm soát tắc nghẽn

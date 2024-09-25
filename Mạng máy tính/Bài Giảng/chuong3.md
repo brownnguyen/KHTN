@@ -78,3 +78,40 @@ Só địa chỉ host hợp lệ trong cùng 1 đường mạng 2^m - 2 ( m là 
        - Số host trong cùng network: ( dòng 58, 59) 2^16-2
        - Các địa chỉ của host: từ 172.29.0.1 - 172.255.254
        Địa chỉ broadcast: 1010 1100 | 0001 1101 | 1111 1111 | 1111 1111 = 172.29.255.255
+
+    192.168.32.0/255.255.255.0
+        - Lớp C:
+
+
+
+- Menu + 3: đổi nhị phân sang thập phân và ngược lại
+nhập nhị phân -> (log.[])  (=)  (x^2) ra được thập phân
+
+nhập thập phân -> (x^2) ( = ) (log.[])
+
+=> chia địa chỉ đường mạng con
+    - Dựa vào địa chỉ đường mạng ban đầu, mượn 1 số bít phần host
+    - Gọi n là số bit mình mượn
+    - Mượn n bit thì có 2^n địa chỉ đường mạng con
+
+Vi dụ: 203.48.96.0/24 chia thành 6 subnet ( 6 dịa chỉ đường mạng con)
+vậy sẽ có 8 bit host
+Cần 6 subnet thì mượn 3 bit tức là 2^3 = 8 > 6 ( vậy ta sẽ có 8 địa chỉ đường mạng con )
+
+Mượn 3 bit thì còn lại 5 bit nếu 5 bit host thì sẽ có 2^5 = 32 (32 này là bước nhảy giữa 2 đường mạng con)
+
+Bài khác, 172.29.0.0/16, chia 10 subnet, có 3 subnet có 100pc 4 subnet có 255pc, 3 subnet có 500pc
+
+Chia 10 subnet thì mượn 4 bit 2^4. tính bước nhảy
+
+Nhắm ngay số lớn nhất 500
+
+Mượn 4 bit thì còn lại 12 bit, 500 pc thì cần 9 bit 2^9
+-> mỗi subnet có 2^12-2 pc
+
+192.168.1.0 lớp C /24 chia 5 subnet trong đó 3 subnet 30pc, 2subnet có 60pc
+-> mượn 2 bit còn 6 bit, có 4 địa chỉ đường mạng con, bước nhảy cách nhau 64 2^6
+-> mượn tiếp 3 bit, vậy bước nhảy là 2^5 = 32 là có 30 pc
+
+1.b 2.c 3.c 4.c 5.
+
